@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Patient Interface</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Section for the header containing the logo and navigation links-->
+	<header class="header">
+		<!--Div containing logo-->
+		<div>
+			<img src="Images/logo.png" alt="Brand Logo">
+		</div>
+
+		<!--Navigation links in the header-->
+		<div class="navigation">
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Page introduction section -->
+	<section class="introduction">
+		<h1>Patient's Portal</h1>
+		<!-- Course name -->
+		<h4>View your Record</h4>		
+	</section>
+
+	<!-- Section containing Patient's form-->
+	<section>
+		<form id="form1" action= "./php/patient_record.php" method="post">
+				<button id="form_button" type="submit" form = "form1" value="View Record">View Record</button>
+		</form>
+	
+
+	<!-- Footer section containing navigation links and additional details-->
+	<!-- <footer>
+		<h5>WEB DEVELOPMENT 2019 &#0169</h5>
+
+		<div>.
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>
+			</nav>
+		</div>
+	</footer> -->
+
+</body>
+</html>

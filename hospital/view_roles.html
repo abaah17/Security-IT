@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>View Roles</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<!-- Section for the header containing the logo and navigation links-->
+	<header class="header">
+		<!--Div containing logo-->
+		<div>
+			<img src="Images/logo.png" alt="Brand Logo">
+		</div>
+
+		<!--Navigation links in the header-->
+		<div class="navigation">
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Section containing all the content of the page -->
+	<section class="view_courses">
+		<h3>Available Roles</h3>
+
+		<!--new division for the courses card-->
+		<section class="roleSec">
+
+			<!-- Course Image, course description division -->
+			<div class="roleCard">
+				<img src="Images/admin.png" alt="Admin Role">
+				<div>
+					<h1>Admin Role </h1>
+					<h3>Functions</h3>
+					<p>Can create new users on the platform and these include Patient and Doctors</p>
+				</div>
+			</div>
+
+			<!-- View Role Button segment -->
+			<div>
+				<button onclick="window.location.href = 'admin_login.html'">View Role</button>
+			</div>
+			
+		</section>
+		
+		<!--new division for the courses card 2-->
+		<section class="roleSec">
+			
+			<!-- Course Image, course description division -->
+			<div class="roleCard">
+				<img src="Images/doctor.png" alt="Doctor's Role ">
+				<div>
+					<h1>Doctor's Role </h1>
+					<h3>Functions</h3>
+					<p>Can create a patients record.</p>
+				</div>
+			</div>
+
+			<!-- View Role Button segment -->
+			<div class="rolebutton">
+				<button onclick="window.location.href = 'doctor_login.html'">View Role</button>
+			</div>
+			<!-- <button onclick="window.location.href = 'Course_Dashboard.html'">View Role</button> -->
+		</section>
+
+		<!--new division for the courses card 3-->
+		<section class="roleSec">
+			
+			<!-- Course Image, course description division -->
+			<div class="roleCard">
+				<img src="Images/patient.png" alt="Patient's Role">
+				<div>
+					<h1>Patient's Role</h1>
+					<h3>Functions</h3>
+					<p>View his/her records</p>
+				</div>
+			</div>
+
+			<!-- View Role Button segment -->
+			<div>
+				<button onclick="window.location.href = 'patient_login.html'">View Role</button>
+			</div>
+			<!-- <button onclick="window.location.href = 'Course_Dashboard.html'">View Role</button> -->
+		</section>
+
+
+	<!-- Footer section containing navigation links and additional details-->
+	<footer>
+		<h5>WEB DEVELOPMENT 2019 &#0169</h5>
+
+		<div>
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>			
+			</nav>
+		</div>
+	</footer>
+
+</body>
+</html>

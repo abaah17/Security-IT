@@ -1,0 +1,495 @@
+/*Styling for html body to allow content ocupy the full screen*/
+body {
+	margin: 0 auto;
+	/*padding-left: 20px;*/
+}
+
+/*Styling for elements in the header*/
+header {
+	background-color: #041221;
+    margin: 0;
+    display: grid;
+    padding: 10px 20px 10px 20px;
+    grid-template-columns: 55% 45%;
+    
+}
+
+/*Styling for the logo image*/
+header img{
+	max-width: 80px;
+	max-height: 92px;
+}
+
+/*Styling for the navigation bar*/
+nav{
+	text-align: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+}
+
+/*Styling for the link texts in the navigation bar*/
+nav a{
+	width: 150px;
+	height: 31px;
+	padding: 5px 50px 0 0;
+	font-family: PT Sans, serif;
+	font-size: 20px;
+	color: white;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+}
+
+/*Styling for the background div*/
+.background{
+	position: relative;
+}
+
+/*Styling for image on the homepage background*/
+.background img{
+	object-fit: cover;
+	height: 530px;
+	width: 100%
+}
+
+/*Styling for the shade on the background image*/
+.shade{
+	width: 100%;
+    height: 530px;
+    background: rgba(88,151,251,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+/*Styling for div content in the shade*/
+.shade div{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/*Styling for the h1 tag in the shade containing the text*/
+.shade div h1{
+	width: 453px;
+	height: 130px;
+	font-family: PT Sans, serif;
+	font-size: 50px;
+	color: #ffffff;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+	margin: auto auto 12px;
+}
+
+/*Styling for the link button in the shade.*/
+.shade div button, #form_button{
+	width: 160px;
+	height: 44px;
+	border-radius: 5px;
+	padding: 6px 10px;
+	background-color: #3498db;
+	font-family: PT Sans, serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+}
+
+/*Styling for the div containing reccomendations*/
+.reccomendation{
+	display: flex;
+	position: relative;
+	background-color: #ebebeb;
+}
+
+/*Styling for the images of people who reccomend*/
+.reccomendation img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	padding: 5px 50px 10px 50px;
+}
+
+/*Styling for the div containing the reccomendations*/
+.reccomendation div{
+	width: 875px;
+	height: 200px;
+	font-family: PT Sans, serif;
+	font-size: 20px;
+	color: #424242;
+	text-decoration: none solid rgb(0, 0, 0);
+	
+}
+
+/*Styling for the footer container*/
+footer{
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	position: relative;
+	background-color: #342f3c;
+	padding-left: 50px;
+	font-family: PT Sans, serif;
+}
+
+/*Styling for the H5 element in the footer*/
+footer h5{
+	/*font-family: PT Sans;*/
+	font-size: 14px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none solid rgb(255, 255, 255);
+}
+
+/*Styling for the navigation bar in the footer*/
+footer nav a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+}
+
+/*Styling for the "Availabel courses" text*/
+body h3{
+	font-family: PT Sans, serif;
+	font-size: 24px;
+	color: #424242;
+	margin-left: 50px;
+}
+
+/*Styling for the course section section.*/
+.roleSec{
+	margin-left: 50px;
+	display: flex;
+	width: 85%;
+	font-family: PT Sans, serif;
+	color: #424242;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+/*Styling for course button in the course section*/
+.roleSec button{
+	width: 156px;
+	height: 44px;
+	padding: 6px 10px;
+	background-color: #3498db;
+	font-family: PT Sans, serif;
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 50px;
+}
+
+/*Styling for the course card in the course section*/
+.roleCard img{
+	width: 300px;
+	height: 150px;
+	object-fit: cover;
+	margin-right: 30px;
+}
+
+/*Styling for contents in the course card*/
+.roleCard{
+	display: flex;
+	margin-right: 30px;
+	background-color: #ebebeb;
+	padding-right: 15px;
+}
+
+/*Styling for h1 element in the course card*/
+.roleCard h1{
+	font-size: 32px;
+	margin-top: 15px;
+	margin-bottom: 7px;
+
+}
+
+/*Styling h3 element in the course card*/
+.roleCard h3{
+	margin: 0 auto;
+	font-size: 24px;
+}
+
+/*Styling for p element in the course card*/
+.roleCard p{
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+
+
+/*Styling for introduction on the course dashboard page*/
+.introduction{
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-family: PT Sans, serif;
+	color: #424242;
+}
+
+
+
+/*Styling for the h1 text in the introduction section*/
+.introduction h1{
+	font-size: 24px;
+	margin: 0 auto;
+	align-content: center;
+}
+
+/*Styling for the h4 text in the introduction section*/
+.introduction h4{
+	font-size: 18px;
+	font-weight: lighter;
+	margin: 0 auto;
+}
+
+/*Styling for the course details box in the course dashboard*/
+.courseDetails{
+	margin-bottom: 15px;
+	margin-left: 50px;
+	width: 85%;
+	height: 406px;
+	background-color: #ebebeb;
+	box-shadow: inset 0 0 2px 3px rgba(0,0,0,0.2);
+	padding: 10px 40px 0 40px;
+	font-family: PT Sans, serif;
+	color: #424242;
+}
+
+/*Styling for the description paragraph in the course details box*/
+.courseDetails p{
+	font-size: 18px;
+}
+
+/*Styling for the instruction div*/
+.instruction{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+/*Styling for the text in the instruction div*/
+.instruction h4{
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+
+/*Styling for the test link containers*/
+.testLinks{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.testLinks{
+	margin-bottom: 0;
+}
+
+/*Styling for buttons that lead to the tests*/
+.testButton button{
+	display: flex;
+	margin-bottom: 15px;
+	width: 422px;
+	height: 44px;
+	padding: 6px 10px;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #3498db;
+	font-family: PT Sans, serif;
+	font-size: 20px;
+	color: #ffffff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/*Styling for the lecturer's details container*/
+.lecturer{
+	margin-bottom: 0;
+	display: flex;
+	position: relative;
+}
+
+/*Styling for the lecturer's image*/
+.lecturer img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+/*Styling for text containing lecturer's details*/
+.lecturer h3{
+	position: relative;
+	top: 60%;
+	transform: translateY(-40%);
+	font-size: 18px;
+}
+
+/* Form background Styles */
+.Form{
+	color: #424242;
+	padding: 20px;
+	border: 1px solid #eff0f8;
+    /*width: 100%;*/
+    background-color: #eff0f8;
+    text-align: center;
+	font-family: PT Sans, serif;
+	padding-bottom: 70px;
+}
+
+/*Styling for text in form*/
+.Form h1{
+    padding: 30px 0 40px 0;
+    font-size: 27px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*Styling font labels*/
+.Form label{
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+/*Syling for the messaging box*/
+#Message {
+    position: relative;
+    bottom: 30px; 
+    padding-right: 5px;
+}
+
+/*Styling for the text area*/
+#form1 input, #form1 textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+	width : 50%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#form2 input, #form2 textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+	width : 50%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+/*Styling #or the quiz container*/
+
+/*Styling for the quiz submit button*/
+#button{
+	width: 308px;
+	padding: 6px 10px;
+	border: 2px solid #dddddd;
+	border-radius: 5px;
+	background-color: #3498db;
+	font-family: PT Sans, serif;
+	font-size: 18px;
+	color: #ffffff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/*Styling for the division containing the form and response*/
+.kwiz{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	font-family: PT Sans, serif;
+	color: #424242;
+}
+
+/*Styling for h3 elements in the kwiz division*/
+/*.kwiz h3{*/
+	/*margin: 0 auto;*/
+/*}*/
+
+/*Styling for the result box*/
+.result{
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.2);
+	align-self: flex-end;
+	padding: 10px 20px 10px 20px;
+	background-color: #c7c7c7;
+	display: none;
+	position: fixed;
+	height: 210px;
+	width: 270px;
+	left: 65vw;
+	top: 50vh;
+}
+
+/*Styling for the result box button*/
+.result button{
+	padding: 6px 10px;
+	background-color: #3498db;
+	font-family: PT Sans, serif;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+}
+
+/*Styling for the submit button in quiz 2*/
+.button2{
+	width: 70px;
+	padding: 6px 10px;
+	margin-top: 15px;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #3498db;
+	font-family: PT Sans, serif;
+	font-size: 15px;
+	color: #ffffff;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/*Styling for the question and mark division which holds the quiz question and the image to show if the question was
+answered correctly or not*/
+.question_mark{
+	display: flex;
+	position: relative;
+    /*margin: 0 auto;*/
+}
+
+/*Styling for the marker that shows if the question has been answered correctly*/
+.question_mark img{
+	display: none;
+	max-width: 30px;
+	max-height: 30px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+/*Styling for the number picker in quiz 3*/
+#number_picker, #dropdown, #text_question, #textInput{
+	width: 300px;
+	height: 30px;
+	padding: 0px 10px;
+	border: 1px solid #c8c8c8;
+	font-family: PT Sans, serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/*Credits: Slider styling was gotten from w3 schools (w3schools.com)*/
+/* Styling for the slider */
+.slider {
+  -webkit-appearance: none; 
+  width: 80%;
+  height: 25px;
+  background: #3498db;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects for the slider */
+.slider:hover {
+  opacity: 1;
+}
+
+/*Styling for slider button*/
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 35px;
+  background: #ff7309;
+  cursor: pointer;
+}

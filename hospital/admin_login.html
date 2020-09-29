@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Course Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Section for the header containing the logo and navigation links-->
+	<header class="header">
+		<!--Div containing logo-->
+		<div>
+			<img src="Images/logo.png" alt="Brand Logo">
+		</div>
+
+		<!--Navigation links in the header-->
+		<div class="navigation">
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Page introduction section -->
+	<section class="introduction">
+		<h1>Welcome Administrator</h1>
+		<!-- Course name -->
+		<h4>Manage User Functions on the Platform</h4>		
+	</section>
+
+	<!-- Section containing course information -->
+	
+
+	<section class="Form">
+    	<h1>Login As Admin</h1>
+    	<form id="form1" action= "./php/admin_login.php" method="post">
+    		<label>Email:</label>
+    		<input type="email"  name="admin_email" placeholder="Enter your password"><br><br>
+
+    		<label>Password:</label>
+    		<input id="e_name" type="password" name="admin_password" placeholder="Enter your Password"><br><br>
+
+    		<button id="form_button" type="submit" form = "form1" value="login">login</button>
+    	</form>
+    </section>
+
+	<!-- Footer section containing navigation links and additional details-->
+	<!-- <footer>
+		<h5>WEB DEVELOPMENT 2019 &#0169</h5>
+
+		<div>.
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>
+			</nav>
+		</div>
+	</footer> -->
+
+</body>
+</html>

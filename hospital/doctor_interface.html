@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dr Interfacef</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- Section for the header containing the logo and navigation links-->
+	<header class="header">
+		<!--Div containing logo-->
+		<div>
+			<img src="Images/logo.png" alt="Brand Logo">
+		</div>
+
+		<!--Navigation links in the header-->
+		<div class="navigation">
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Page introduction section -->
+	<section class="introduction">
+		<h1>Doctor's Portal</h1>
+		<!-- Course name -->
+		<h4>Can create and update patients record</h4>		
+	</section>
+
+	<!-- Section containing Patient's form-->
+
+    <section class="Form">
+    	<h1>Create New Patient</h1>
+    	<form id="form1" action= "./php/dr_create_patient.php" method="post">
+    		
+    		<label>Email:</label>
+    		<input  type="email" name="patient_email" placeholder="Patient's Email *"><br><br>
+
+    		<label>Password:</label>
+    		<input  type="password" name="patient_password" placeholder="Assign Patient's Password *"><br><br>
+
+    		<label>Name:</label>
+    		<input  type="username" name="patient_name" placeholder="Patient's Name *"><br><br>
+
+    		<label>Gender:</label>
+    		<input  type="text" name="patient_gender" placeholder="Patient's Gender *"><br><br>
+
+    		<button id="form_button" type="submit" form = "form1" value="Create Patient">Create Patient</button>
+
+    		<button id="form_button" type="submit" form = "form1" value="Update Records">Update Record</button>
+    		
+    	</form>
+
+    </section>
+
+	<!-- Footer section containing navigation links and additional details-->
+	<!-- <footer>
+		<h5>WEB DEVELOPMENT 2019 &#0169</h5>
+
+		<div>.
+			<nav>
+				<a href="index.html">Home Page</a>
+				<a href="view_roles.html">View Roles</a>
+			</nav>
+		</div>
+	</footer> -->
+
+</body>
+</html>
